@@ -409,7 +409,7 @@
                                     'click',
                                     function() {
                                         const imageToDelete = this.closest(
-                                        '.image-preview');
+                                            '.image-preview');
 
                                         $('#deleteImageModal').modal('show');
 

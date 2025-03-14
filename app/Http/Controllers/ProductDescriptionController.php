@@ -15,7 +15,7 @@ class ProductDescriptionController extends Controller
     public function index()
     {
         $products = Product::with(['categories.images'])->get();
-        return view('products.index', compact('products'));
+        return view('index', compact('products'));
     }
 
     public function store(Request $request)
